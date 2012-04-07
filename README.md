@@ -1,4 +1,4 @@
-# Survey - rich web-based management powerful tool for multiple question/answers (version 0.0.1) 
+Survey - rich web-based management powerful tool for multiple question/answers (version 0.0.1) 
 
 # Using
 
@@ -6,9 +6,9 @@
 
 * Rails (3.1.4)
 
-* ExtJS 4.0 (www.sencha.com)
+* ExtJS 4.0 (http://www.sencha.com/)
 
-* Netzke Framework
+* Netzke Framework (http://netzke.org/)
 
 * MySQL
 
@@ -47,16 +47,16 @@ Before start project get your email settings and paste them into config/initiali
 
 * Upgrade database
 
-* Make admins and users
+* All rights to admins and some limited rights to users
 
-* l18n
+* l18
 
 
 #Some bugs founded?
 
 * EMAIL	    :   hello@estof.net
         
-* URL	    :   www.vitalizakharoff.com/blo
+* URL	    :   www.vitalizakharoff.com/blog
 
 
 Current version is 0.0.1.
