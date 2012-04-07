@@ -4,7 +4,7 @@ Survey - rich web-based management powerful tool for multiple question/answers (
 
 * Ruby (1.9.3)
 
-* Rails (3.1.4)
+* Rails (3.0.0)
 
 * ExtJS 4.0 (http://www.sencha.com/)
 
