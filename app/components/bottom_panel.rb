@@ -1,11 +1,5 @@
 class BottomPanel < Netzke::Basepack::Panel
 
-  #js_mixin :init_component
-
-  #action :add,		:icon => :add,		:text => "Add Report",		:height => 34,		:width => 100
-
-  #js_mixin :actions
-
   def get_bbar
     return ['->', :add.action]
   end
