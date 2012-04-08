@@ -1,6 +1,6 @@
 class RespondentMailer < ActionMailer::Base
   default :to => Respondent.all.map(&:email),
-	  :from => "me@vitalizakharoff"
+	  :from => "me@vitalizakharoff.com"
   
   def inquiry_notification(inquiry)
     @respondent = inquiry.respondent.email
