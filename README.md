@@ -24,6 +24,15 @@ Before start project get your email settings and paste them into config/initiali
     :password           => 'your_pass'
     }`
     
+    
+ * Setup Database (MySQL)
+ 
+ just write
+ 
+    `rake db:migrate`
+    
+  this command will generates all tables with one user (username: admin & password: admin) 
+    
         
 # What you can do?
 
