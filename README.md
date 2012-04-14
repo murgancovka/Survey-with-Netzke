@@ -22,10 +22,10 @@ Before start project get your email settings and paste them into config/initiali
     ..
     :user_name          => 'your_name@your_domen.com',
     :password           => 'your_pass'
-    }`
+    }
     
     
- # Setup Database (MySQL)
+# Setup Database (MySQL)
  
  Just write
  
