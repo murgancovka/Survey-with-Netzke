@@ -17,7 +17,7 @@ Survey - rich web-based management powerful tool for multiple question/answers (
 
 Before start project get your email settings and paste them into config/initializers/setup_mail.rb 
 
-    `..
+    ..
     :address            => 'smtp.your_domen.com',
     ..
     :user_name          => 'your_name@your_domen.com',
@@ -25,11 +25,11 @@ Before start project get your email settings and paste them into config/initiali
     }`
     
     
- * Setup Database (MySQL)
+ # Setup Database (MySQL)
  
- just write
+ Just write
  
-    `rake db:migrate`
+    rake db:migrate
     
   this command will generates all tables with one user (username: admin & password: admin) 
     
