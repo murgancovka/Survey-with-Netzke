@@ -7,7 +7,7 @@ class AnswerForm < Netzke::Basepack::FormPanel
 	return ['->', :apply.action]
   end
 
-  action :apply,  :text => "Add Question", 	:icon => "/images/icons/accept.png", 	:height => 30
+  action :apply,  :text => "Add Answer", 	:icon => "/images/icons/accept.png", 	:height => 30
 
   def configuration
     super.merge(
