@@ -64,15 +64,15 @@ Before start project get your email settings and paste them into config/initiali
 
 * Login form
 
-![VZ](http://www.estof.net/1/test3.png)
+![VZ](http://www.estof.net/1/test4.png)
 
 * Adding respondent
 
-![VZ](http://www.estof.net/1/test4.png)
+![VZ](http://www.estof.net/1/test5.png)
 
 * Survey design (Netzke based on ExtJS Framework)
 
-![VZ](http://www.estof.net/1/test5.png)
+![VZ](http://www.estof.net/1/test6.png)
 
 
 #Some bugs founded?
