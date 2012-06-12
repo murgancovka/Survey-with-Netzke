@@ -58,7 +58,21 @@ Before start project get your email settings and paste them into config/initiali
 
 * All rights to admins and some limited rights to users
 
-* l18
+* l18n
+
+#Screenshots
+
+* Login form
+
+![VZ](http://www.estof.net/1/test3.png)
+
+* Adding respondent
+
+![VZ](http://www.estof.net/1/test4.png)
+
+* Survey design (Netzke based on ExtJS Framework)
+
+![VZ](http://www.estof.net/1/test5.png)
 
 
 #Some bugs founded?
