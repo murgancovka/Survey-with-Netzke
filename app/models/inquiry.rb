@@ -8,7 +8,7 @@ class Inquiry < ActiveRecord::Base
     "`answers`.`text`"])
 
   def answer_form_link
-    return "http://#{RAILS_HOST}/answers/form?inquiry_id=#{self.id.to_s}"
+    return "http://#{RAILS_HOST}/main/form?inquiry_id=#{self.id.to_s}"
   end
 
 end

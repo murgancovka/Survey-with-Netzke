@@ -32,7 +32,11 @@ class QuestionAddingForm < Netzke::Basepack::FormPanel
   endpoint :apply do |params|
   	success = false
 	respondents  = Respondent.is_active
-	question     = Question.create(:user_id=>session[:user].id,:text=>params[:text],:security_token=>Digest::SHA1.hexdigest(rand(1000000).to_s), :is_active=>1, :is_deleted=>0)
+	question     = Question.create(:user_id=>session[:user_id],
+				       :text=>params[:text],
+				       :security_token=>Digest::SHA1.hexdigest(rand(1000000).to_s),
+				       :is_active=>1,
+				       :is_deleted=>0)
   	   if question
 		respondents.each do |r|
 			inquiry = Inquiry.create(:question_id=>question.id,:respondent_id=>r.id,:is_answered=>0)

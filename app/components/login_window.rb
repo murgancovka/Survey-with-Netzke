@@ -8,7 +8,7 @@ class LoginWindow < Netzke::Basepack::Window
   def configuration
     super.merge(
       :name 		=> :login_window,
-      :title 		=> "::Login::",
+      :title 		=> I18n.t('login'),
       :width 		=> 400,
       :y 		=> 100,
       :border 		=> false,
