@@ -3,7 +3,7 @@ class QuestionGrid < Netzke::Basepack::GridPanel
   js_mixin :init_component
 
 	def get_bbar
-		return [:edit.action]
+	  return [:edit.action, :apply.action, :del.action]
 	end
 
 	def configuration
@@ -28,6 +28,8 @@ class QuestionGrid < Netzke::Basepack::GridPanel
 			:bbar			  => get_bbar
 		)
 	end
+
+  
 end
 
 

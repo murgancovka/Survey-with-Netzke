@@ -6,6 +6,12 @@
 					if(btn == "yes"){
 						this.apply(form.getFieldValues(), function(success) { 
 							if (success) {
+                                                            Ext.Msg.show({ 
+									title	: 'Success', 
+									msg	: "Wait for redirecting...",
+									buttons	: Ext.Msg.OK, 
+									icon	: Ext.Msg.INFO
+								});
 								 window.location = '/';
 							}else{
 								Ext.Msg.show({ 

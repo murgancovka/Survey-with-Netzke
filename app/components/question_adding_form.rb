@@ -30,7 +30,7 @@ class QuestionAddingForm < Netzke::Basepack::FormPanel
 
 
   endpoint :apply do |params|
-  	success = false
+  	success      = false
 	respondents  = Respondent.is_active
 	question     = Question.create(:user_id=>session[:user_id],
 				       :text=>params[:text],
@@ -39,9 +39,9 @@ class QuestionAddingForm < Netzke::Basepack::FormPanel
 				       :is_deleted=>0)
   	   if question
 		respondents.each do |r|
-			inquiry = Inquiry.create(:question_id=>question.id,:respondent_id=>r.id,:is_answered=>0)
-			RespondentMailer.inquiry_notification(inquiry).deliver
-			success = true
+		  inquiry = Inquiry.create(:question_id=>question.id,:respondent_id=>r.id,:is_answered=>0)
+		  RespondentMailer.inquiry_notification(inquiry).deliver
+		  success = true
 		end
            end
 
